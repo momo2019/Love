@@ -463,7 +463,7 @@ export default {
               break
 
             case 'icon':
-              that.shape.ShapeBuilder.imageFile('../assets/' + value + '.png', function (obj) {
+              that.shape.ShapeBuilder.imageFile('assets/' + value + '.png', function (obj) {
                 that.shape.Shape.switchShape(obj)
               })
               break

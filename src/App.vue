@@ -21,7 +21,7 @@
     <div v-else>
       {{ '使用电脑打开,扣扣你了,窗口拉宽拉高点,全屏按F11。' }}
     </div>
-    <audio src="assets/music/music.mp3" controls autoplay hidden="true"></audio>
+    <audio src="assets/music/music.mp3" controls autoplay loop hidden="true"></audio>
   </div>
 </template>
 
