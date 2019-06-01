@@ -69,7 +69,7 @@ export default {
         this.flag = false
         setTimeout(_ => {
           this.style.zIndex = this.index
-        }, 1000)
+        }, 900)
         setTimeout(_ => {
           this.flag = true
         }, 3000)
@@ -78,7 +78,7 @@ export default {
         this.flag = false
         setTimeout(_ => {
           this.style.zIndex = this.sum  - this.index
-        }, 800)
+        }, 900)
         setTimeout(_ => {
           this.flag = true
         }, 3000)

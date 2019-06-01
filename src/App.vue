@@ -67,6 +67,16 @@ export default {
         back: {
           img: 'assets/back3.jpg'
         }
+      },{
+        font: {
+          title: 'Emmmmmm',
+          content: '写文字比写代码还难_前面两段都是俺抄的_嘻嘻_再翻一页',
+          index: '003',
+          img: ''
+        },
+        back: {
+          img: ''
+        }
       }],
       display: {
         opacity: 0,
